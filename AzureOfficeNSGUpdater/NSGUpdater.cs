@@ -148,11 +148,6 @@ namespace AzureOfficeNSGUpdater
                 throw;
             }
 
-            //var publicIPAddress = await azure.PublicIPAddresses.Define("myPublicIP").WithRegion(Region.EuropeWest).WithExistingResourceGroup("berndfunction").WithDynamicIP().CreateAsync();
-            //var azure = Azure.Authenticate();
-            //var groupName = "sagetestgroup";
-            //var resourceGroup = azure.ResourceGroups.Define(groupName);
-
 
             Console.WriteLine("Hello World!");
         }
